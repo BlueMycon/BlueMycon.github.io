@@ -1,44 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<title>Kenny Burgher</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Resume - Start Bootstrap Theme</title>
+  <!--
+    TODO:
+    favicon via image generator;
+    QR code for the site?
+  -->
+  <link rel="icon" type="image/x-icon" href="assets/img/icons8-source-code-ios-16-filled-72.png" />
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body>
-  <div id="navigator" class="navigator">
-    <h2 style="padding-left: 25px;">K. Burgher</h2>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+<body id="page-top">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Kenny Burgher</span>
+      <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
+          src="assets/img/kburgher-square.jpg" alt="..." /></span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+        </li>
       </ul>
-    </nav>
+    </div>
+  </nav>
+  <!-- Page Content-->
+  <div class="container-fluid p-0">
+    <!-- About-->
+    <section class="resume-section" id="about">
+      <div class="resume-section-content">
+        <h1 class="mb-0">
+          Kenny
+          <span class="text-primary">Burgher</span>
+        </h1>
+        <div class="subheading mb-5">
+          Haight-Ashbury · San Francisco, CA 94117 · (303) 547-6131 ·
+          <a href="mailto:kenny.burgher@gmail.com">kenny.burgher@gmail.com</a>
+        </div>
+        <p class="lead mb-5">
+          I am a Full-Stack Engineer looking to harness my passion for
+          problem-solving with app creation.
+          I graduated from Rithm School with a certification in
+          Full-Stack Engineering.
+          I'm seeking to take my skillset and apply it to new environments
+          that will allow me to grow and learn as an engineer.
+        </p>
+        <div class="social-icons">
+          <a class="social-icon" href="https://www.linkedin.com/in/kenneth-burgher/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a class="social-icon" href="https://github.com/BlueMycon">
+            <i class="fab fa-github"></i>
+          </a>
+          <!-- <a class="social-icon" href="#!">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a class="social-icon" href="#!">
+                <i class="fab fa-facebook-f"></i>
+            </a> -->
+        </div>
+      </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Experience-->
+    <section class="resume-section" id="experience">
+      <div class="resume-section-content">
+        <h2 class="mb-5">Experience</h2>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">Full Stack Engineer Intern</h3>
+            <div class="subheading mb-3">Rithm School LMS</div>
+            <ul>
+              <li>
+                Wrote a lightning talks feature allowing students to upload their lightning talk slides in various
+                formats and made lightning talks searchable across different cohorts of students via Postgres
+                database index.
+              </li>
+              <li>
+                Adapted an implementation of Irving's stable-roommate algorithm for optimization of
+                pairing preferences to custom needs for Rithm school, an odd number of roommates, and
+                a round robin requirement.
+              </li>
+              <li>
+                Wrote all model factories with Django's factory_boy library to streamline the testing process
+                and ensured test coverage remained at 98% or above.
+              </li>
+              <li>
+                Used Git and github to branch and compose PRs for code
+              </li>
+              <li>
+                Participated in daily standups using Agile development.
+                Met weekly for project estimates in terms of story points at the start of sprints
+              </li>
+            </ul>
+          </div>
+          <div class="flex-shrink-0">
+            <span class="text-primary">Jun 2023 - Jul 2023</span>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">Private Tutor</h3>
+            <div class="subheading mb-3">Easy As Pi Tutoring</div>
+            <ul>
+              <li>
+                Made and executed learning plans to take K-12 and college students from struggling to success
+                in their mathematics and science classes
+              </li>
+              <li>
+                Worked with students with learning differences including dyslexia, ADD/ADHD, autism, and down syndrome
+              </li>
+              <li>
+                Successfully prepared middle schoolers to get into top private high schools in San Francisco
+              </li>
+              <li>
+                Prepared high schoolers to take standardized tests such as the PSAT, SAT and ACT
+              </li>
+            </ul>
+          </div>
+          <div class="flex-shrink-0">
+            <span class="text-primary">Aug 2012 - May 2023</span>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">Quality Assurance</h3>
+            <div class="subheading mb-3">Hovee</div>
+            <ul>
+              <li>
+                Manual testing of a carpooling recommendation and matching web app and iOS and Android apps
+              </li>
+              <li>
+                Manual API testing via Postman
+              </li>
+            </ul>
+          </div>
+          <div class="flex-shrink-0">
+            <span class="text-primary">Mar 2014 - Oct 2014</span>
+          </div>
+        </div>
+        <!-- <div class="d-flex flex-column flex-md-row justify-content-between">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">Web Design Intern</h3>
+            <div class="subheading mb-3">Shout! Media Productions</div>
+            <p>
+              Collaboratively administrate empowered markets via plug-and-play
+              networks. Dynamically procrastinate B2C users after installed
+              base benefits. Dramatically visualize customer directed
+              convergence without revolutionary ROI.
+            </p>
+          </div>
+          <div class="flex-shrink-0">
+            <span class="text-primary">September 2008 - June 2010</span>
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Projects-->
+    <section class="resume-section" id="projects">
+      <div class="resume-section-content">
+        <h2 class="mb-5">Projects</h2>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">Jobly</h3>
+            <div class="mb-3">Full-Stack Job application web-app.
+              Uses React.js on the frontend and Express.js on the backend.
+            </div>
+            <div>
+              <ul>
+                <!-- TODO: Demo link -->
+                <li><a href="https://astonbdev-jobly.surge.sh/">
+                    <p class="list-inline-item">Demo</p><i
+                      class=" list-inline-item fa-solid fa-arrow-up-right-from-square"></i>
+                  </a></li>
+                <li><a href="https://github.com/astonbdev/react-jobly">
+                    <p class="list-inline-item">Source</p><i class=" list-inline-item fa-brands fa-github"></i>
+                  </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="flex-shrink-0">
+            <!-- TODO: Brand image -->
+            <img class="projects-img rounded-circle mx-auto mb-2" src="images/jobly-brand.png">
+            </img>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">Warbler</h3>
+            <div class="mb-3">Twitter clone using Flask.</div>
+            <div>
+              <ul>
+                <!-- TODO: Demo link -->
+                <li><a href="http://warbler-astonbdev.herokuapp.com/">
+                    <p class="list-inline-item">Demo</p><i
+                      class=" list-inline-item fa-solid fa-arrow-up-right-from-square"></i>
+                  </a></li>
+                <li><a href="https://github.com/astonbdev/warbler">
+                    <p class="list-inline-item">Source</p><i class=" list-inline-item fa-brands fa-github"></i>
+                  </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="flex-shrink-0">
+            <!-- TODO: Brand image -->
+            <img class="projects-img rounded-circle mx-auto mb-2" src="images/warbler.jpeg">
+            </img>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">Friender</h3>
+            <div class="mb-3">Tinder for Friends. Uses React.js on the frontend and Flask on the backend.</div>
+            <div>
+              <ul>
+                <!-- TODO: Demo link -->
+                <li><a href="https://www.kongregate.com/games/b_aston/asteroid-field?acomplete=asteroid+field">
+                    <p class="list-inline-item">Demo</p><i
+                      class=" list-inline-item fa-solid fa-arrow-up-right-from-square"></i>
+                  </a></li>
+                <li><a href="https://github.com/astonbdev/warbler">
+                    <p class="list-inline-item">Source</p><i class=" list-inline-item fa-brands fa-github"></i>
+                  </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="flex-shrink-0">
+            <!-- TODO: Brand image -->
+            <img class="projects-img rounded-circle mx-auto mb-2"
+              src="images/Asteroids.png">
+            </img>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Education-->
+    <section class="resume-section" id="education">
+      <div class="resume-section-content">
+        <h2 class="mb-5">Education</h2>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">Rithm School</h3>
+            <div class="subheading mb-3">Full Stack Web Development</div>
+          </div>
+          <div class="flex-shrink-0">
+            <span class="text-primary">Apr 2023 - Jul 2023</span>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between">
+          <div class="flex-grow-1">
+            <h3 class="mb-0">University of Chicago</h3>
+            <div class="subheading mb-3">Mathematics</div>
+          </div>
+          <div class="flex-shrink-0">
+            <span class="text-primary">2007 - 2009</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Skills-->
+    <section class="resume-section" id="skills">
+      <div class="resume-section-content">
+        <h2 class="mb-5">Skills</h2>
+        <div class="subheading mb-3">Programming Languages & Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item"><img height="35" width="35" src="https://cdn.simpleicons.org/html5/#E34F26" /></li>
+          <li class="list-inline-item"><img height="35" width="35" src="https://cdn.simpleicons.org/css3/#1572B6" /></li>
+          <li class="list-inline-item"><img height="35" width="35" src="https://cdn.simpleicons.org/bootstrap/#7952B3" /></li>
+          <li class="list-inline-item"><img height="35" width="35" src="https://cdn.simpleicons.org/javascript/#F7DF1E" /></li>
+          <!-- <li class="list-inline-item"><img height="35" width="35" src="https://unpkg.com/simple-icons@v4/icons/tailwindcss.svg" /></li> -->
+          <li class="list-inline-item"><img height="35" width="35" src="https://cdn.simpleicons.org/jquery/#0769AD" /></li>
+          <li class="list-inline-item"><img height="35" width="35" src="https://cdn.simpleicons.org/react/#61DAFB" /></li>
+          <li class="list-inline-item"><img height="35" width="35" src="https://cdn.simpleicons.org/nodedotjs/#339933" /></li>
+          <li class="list-inline-item"><img height="35" width="35" src="https://cdn.simpleicons.org/express/#000000" /></li>
+          <li class="list-inline-item"><img height="35" width="35" src="https://cdn.simpleicons.org/python/#3776AB" /></li>
+          <li class="list-inline-item"><img height="35" width="35" src="https://cdn.simpleicons.org/flask/#000000" /></li>
+          <li class="list-inline-item"><img height="35" width="35" src="https://cdn.simpleicons.org/django/#092E20" /></li>
+          <li class="list-inline-item"><img height="35" width="35" src="https://cdn.simpleicons.org/postgresql/#4169E1" /></li>
+          <li class="list-inline-item"><img height="35" width="35" src="https://cdn.simpleicons.org/amazonaws/#232F3E" /></li>
+          <li class="list-inline-item"><img height="35" width="35" src="https://cdn.simpleicons.org/git/#F05032" /></li>
+        </ul>
+      </div>
+    </section>
+    <hr class="m-0" />
+    <!-- Interests-->
+    <section class="resume-section" id="interests">
+      <div class="resume-section-content">
+        <h2 class="mb-5">Interests</h2>
+        <p>
+          In my spare time I enjoy reading philosophy, seeing films or going to museums, and hiking with my girlfriend.
+          In a past life I was a private math and science tutor, and from time to time I still enjoy helping kids
+          explore and expand their minds in these areas.
+          I love a good game a chess, and any other similar combinatorial games.
+        </p>
+        <p class="mb-0">
+        </p>
+      </div>
+    </section>
+    <hr class="m-0" />
   </div>
-
-  <div class="container">
-    <div id="home" class="section">
-      <img src="kbprofile.jpg" alt="Kenny" class="profilePic">
-      <h1>Kenny Burgher</h1>
-      <h2>Private Tutor and Apsiring Engineer</h2>
-    </div>
-
-    <div id="about" class="section">
-      <h2>About Me</h2>
-      <p>I am a private math, science, and test prep tutor in San Francisco.</p>
-      <p>Currently, I am studying full-stack web development at the Rithm School.</p>
-      <p>
-        Here's a copy of my <a href="Kenny_Burgher_Resume.pdf">resume</a>.
-      </p>
-    </div>
-
-    <div id="contact" class="section">
-      <h2>Contact Me</h2>
-      <p>Call or text me at:
-        <a href="tel:0000000000">(000)000-0000</a>
-      </p>
-      <p>Email me at:
-        <a href = "mailto: kenny.burgher@gmail.com">kenny.burgher@burgher.com</a>
-      </p>
-    </div>
-  </div>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
 </body>
+
+</html>
